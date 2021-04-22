@@ -1,4 +1,25 @@
 <!DOCTYPE html>
+<style>
+	.linkButton {
+	  color: darkred;
+	  font-size: 4.5em;
+	  border: 1px solid black;
+	  margin-top: 8px;
+	  margin-left: 25%;
+	  margin-right: 25%;
+	  background-color: rgba(64, 64, 64, 0.5);
+	  cursor: pointer;
+	}
+	
+	.linkButton:hover {
+		color: red;
+		background-color: rgba(128, 128, 128, 0.5);
+	}
+	
+	#gotoAboutCreators {
+		margin-bottom: 0px;
+	}
+</style>
 <html>
 	<head>
 	  <title>Virtual WW2 Museum</title>
@@ -21,23 +42,23 @@
 		<link href="index-style.css" rel="stylesheet" type="text/css">
 		<div id="content">
 			<h1 style = "font-size: 4em">Welcome to the Virtual World War 2 Museum</h1>
-			<p style="font-size: 2em">
+			<p style="font-size: 2.5em">
 				A Virtual WW2 museum, with the ability to walk around and interact with WW2 machinery. <br> Take a walk in the past and see the war in action. <br><br>
 			</p>
 			
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/tnSz_C9B-C8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			
-			<p style="font-size: 2em">
+			
+			<p style="font-size: 2.5em">
 				Find out more about the Virtual WW2 Museum.
 			</p>
 			<p id="gotoAbout" class="linkButton" onclick="window.location = 'About.html'">About the Virtual Museum</p>
 			
-			<p style="font-size: 2em">
+			<p style="font-size: 2.5em">
 				Visit the gallery for a preview of the environment.
 			</p>
 			<p id="gotoGallery" class="linkButton" onclick="window.location = 'Gallery.html'">Browse the Photo Gallery</p>
 			
-			<p style="font-size: 2em">
+			<p style="font-size: 2.5em">
 				Find out more about the creators of the Virtual WW2 Museum.
 			</p>
 			<p id="gotoAboutCreators" class="linkButton" onclick="window.location = 'AboutCreators.html'">About the Creators</p>
