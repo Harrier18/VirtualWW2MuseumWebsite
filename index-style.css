@@ -1,3 +1,12 @@
 .linkButton {
-  
+  color: red;
+  font-size: 4.5em;
+  border: 1px solid black;
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: rgba(64, 64, 64, 0.5);
+}
+
+#gotoAboutCreators {
+	margin-bottom: 0px;
 }
