@@ -1,7 +1,12 @@
+iframe {
+	margin-bottom: 32px;
+}
+
 .linkButton {
   color: darkred;
   font-size: 4.5em;
   border: 1px solid black;
+  margin-top: 8px;
   margin-left: 25%;
   margin-right: 25%;
   background-color: rgba(64, 64, 64, 0.5);
