@@ -1,4 +1,5 @@
 body {
   background-image: url("Level.jpg");
-  background-color: Black;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
