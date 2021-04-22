@@ -1,10 +1,32 @@
 header {
+	background-color: Black;
 	font-family: Arial, Helvetica, sans-serif;
-	text-align: center;
 }
-
 body {
   background-image: url("Level.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0px;
 }
+
+
+.navItem {
+	color: lightgrey;
+	text-align: center;
+	font-size: 2em;
+	width: 25%;
+}
+
+#heading{
+	color: darkgrey;
+	text-align: center;
+	text-shadow: 2px 2px;
+	font-size: 4em;
+}
+
+#navMenu {
+	width: 100%;
+	border: 1px solid lightgrey;
+	background-color: #383838;
+}
+
