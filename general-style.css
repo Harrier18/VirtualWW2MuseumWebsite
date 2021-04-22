@@ -35,6 +35,7 @@ footer {
 
 .navItem:hover {
 	background-color: #484848;
+	cursor: pointer;
 }
 
 #footerText {
