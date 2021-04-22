@@ -29,10 +29,16 @@ footer {
 	font-size: 2em;
 	width: 25%;
 	border: 2px solid black;
+	background-color: #383838;
+}
+
+.navItem:hover {
+	background-color: #484848;
 }
 
 #footerText {
 	margin: 0px;
+	text-align: center;
 }
 
 #heading{

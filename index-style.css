@@ -1,10 +1,15 @@
 .linkButton {
-  color: red;
+  color: darkred;
   font-size: 4.5em;
   border: 1px solid black;
   margin-left: 25%;
   margin-right: 25%;
   background-color: rgba(64, 64, 64, 0.5);
+}
+
+.linkButton:hover {
+	color: red;
+	background-color: rgba(128, 128, 128, 0.5);
 }
 
 #gotoAboutCreators {
